@@ -21,11 +21,30 @@ body {
     height: 100vh;
 }
 .wrapper_box {
-    width: 1200px;
-    margin: 0 auto;
+   
     padding: 30px;
     display: flex;
     flex-direction: column;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: none;
+    }
 }
 .content {
     flex: 0 1 auto;;
@@ -49,7 +68,7 @@ body {
     color: #FFFFFF;
 }
 .first__column-body { 
-    width: 180px;
+    max-width: 180px;
     margin: 0 auto;
     
 }
