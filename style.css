@@ -131,7 +131,9 @@ body {
     color:#E48C12;
     transition: color 0.5s linear
 }
-
+.tel__link {
+    text-decoration: none;
+}
 .education__item {
     line-height: 2;
     margin-bottom: 15px;
