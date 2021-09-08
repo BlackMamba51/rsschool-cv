@@ -19,7 +19,7 @@ body {
     background-color: #EBDDDD;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    overflow:scroll;
+    
 }
 .wrapper_box {
     width: 1200px;
@@ -45,14 +45,18 @@ body {
     }   
 }
 @media (max-width: 982px) {
-    html,body {
-        overflow-x: hidden ;
-    }
-    body {
-        position: relative;
+    .wrapper_box {
+        
     }
     .container {
-        display: block;
+        
+        
+        
+    }
+    .footer__container {
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0 15px;
     }
     .columns {
         display: flex;
