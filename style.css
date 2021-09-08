@@ -51,6 +51,9 @@ body {
         max-width: 320px;
         padding: 0 15px; 
     }
+    .content {
+        display: block;
+    }
     .columns {
         display: flex;
         flex-direction: column;
