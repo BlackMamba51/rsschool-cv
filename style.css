@@ -44,6 +44,7 @@ body {
 }
 @media (max-width: 767px) {
     .container{
+        
         max-width: none;
     }
 }
@@ -168,7 +169,7 @@ body {
 }
 
 .second__body {
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 50px;
 }
@@ -239,7 +240,7 @@ code {
 
 footer {
     max-height: 400px;
-    width: 100%;
+    max-width: 100%;
 }
 .footer__body {
     background-color: #ABA7A7;
@@ -247,7 +248,7 @@ footer {
 }
 .footer__container {
    margin: 0 auto;
-   width:1035px ;
+   max-width:1035px ;
 }
 .footer__flex {
     display: flex;
