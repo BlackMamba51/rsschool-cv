@@ -19,10 +19,11 @@ body {
     background-color: #EBDDDD;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    margin: 0;
     
 }
 .wrapper_box {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
     display: flex;
@@ -46,12 +47,9 @@ body {
 }
 @media (max-width: 982px) {
     .container {
-        
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .photo { 
-        width: 290px;
+        margin: 0 auto;
+        max-width: 320px;
+        padding: 0 15px; 
     }
     .columns {
         display: flex;
