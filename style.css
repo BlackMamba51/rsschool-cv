@@ -50,17 +50,20 @@ body {
         margin-right: auto;
         margin-left: auto;
     }
+    .photo { 
+        width: 290px;
+    }
     .columns {
         display: flex;
         flex-direction: column;
     }
     .first__container {
-        max-width: 320px;
-        padding: 0 15px;
+        max-width: 290px;
+        
     }
     .second__container {
-        max-width: 320px;
-        padding: 0 15px;
+        max-width: 290px;
+        
     }
     h2 {
         font-size: 40px;
