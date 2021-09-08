@@ -45,6 +45,9 @@ body {
     }   
 }
 @media (max-width: 982px) {
+    body {
+        max-width: 300px ;
+    }
     .container {
         display: block;
     }
