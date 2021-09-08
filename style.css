@@ -45,16 +45,10 @@ body {
     }   
 }
 @media (max-width: 982px) {
-    .wrapper_box {
-        
-    }
     .container {
-        display: block;
-        
-        
-    }
-    .footer__container {
-        
+        max-width: 290px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .columns {
         display: flex;
