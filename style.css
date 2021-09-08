@@ -46,11 +46,13 @@ body {
     }   
 }
 @media (max-width: 982px) {
+    .wrapper_box {
+        overflow: hidden;
+    }
     .container {
         margin: auto;
         max-width: 320px;
         padding: 0 15px;
-        overflow-x: hidden; 
     }
     .content {
         display: block;
