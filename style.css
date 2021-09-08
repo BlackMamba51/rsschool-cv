@@ -19,9 +19,11 @@ body {
     background-color: #EBDDDD;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
+    overflow:scroll;
 }
 .wrapper_box {
-   
+    width: 1200px;
+    margin: 0 auto;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -37,16 +39,34 @@ body {
         max-width: 970px;
     }
 }
-@media (max-width: 992px) {
+@media (max-width: 1086px) {
     .container{
-        max-width: 750px;
-    }
+        max-width: 80%;
+    }   
 }
-@media (max-width: 767px) {
-    .container{
-        
-        max-width: none;
+@media (max-width: 982px) {
+    .container {
+        display: block;
     }
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+    .first__container {
+        max-width: 290px;
+    }
+    .second__container {
+        max-width: 290px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+        text-shadow: 4px 0 black;
+    }
+    
 }
 .content {
     flex: 0 1 auto;;
@@ -158,7 +178,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 0 1 auto;
-    width: 850px;
+    max-width: 850px;
     
 }
 
@@ -226,14 +246,11 @@ li {
     display: block;
     position: relative;
 }
-.example {
-    
 
-}
 code {
     position: absolute;
     top: 0%;
-    right: 60%;
+    right: 50%;
 }
 
 /*footer*/
@@ -248,7 +265,7 @@ footer {
 }
 .footer__container {
    margin: 0 auto;
-   max-width:1035px ;
+   max-width: 900px ;
 }
 .footer__flex {
     display: flex;
@@ -287,4 +304,3 @@ span {
 .link__icon {
     color: white;
 }
-    
