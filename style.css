@@ -71,7 +71,7 @@ body {
     color: #FFFFFF;
 }
 .first__column-body { 
-    width: 180px;
+    max-width: 180px;
     margin: 0 auto;
     
 }
@@ -159,7 +159,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 0 1 auto;
-    width: 850px;
+    max-width: 850px;
     
 }
 
@@ -170,7 +170,7 @@ body {
 }
 
 .second__body {
-    width: 700px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 50px;
 }
@@ -246,7 +246,7 @@ footer {
 }
 .footer__container {
    margin: 0 auto;
-   width:1035px ;
+   max-width:1035px ;
 }
 .footer__flex {
     display: flex;
