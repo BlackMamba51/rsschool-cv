@@ -49,14 +49,12 @@ body {
         
     }
     .container {
-        
+        display: block;
         
         
     }
     .footer__container {
-        margin-right: 0;
-        margin-left: 0;
-        padding: 0 15px;
+        
     }
     .columns {
         display: flex;
