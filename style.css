@@ -81,6 +81,7 @@ body {
        height: 170px;
     }
     .code__span {
+        font-size: 13px;
         position: absolute;
         top: 0%;
         right: -20%;
