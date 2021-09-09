@@ -52,7 +52,7 @@ body {
     .container {
         margin: auto;
         max-width: 320px;
-        padding: 0 15px;
+        
     }
     .content {
         display: block;
@@ -76,6 +76,18 @@ body {
         font-size: 40px;
         font-weight: 600;
         text-shadow: 4px 0 black;
+    }
+    .code {
+       height: 170px;
+    }
+    .code__span {
+        position: absolute;
+        top: 0%;
+        right: -20%;
+    }
+    code {
+        position: relative;
+        
     }
     
 }
@@ -261,7 +273,8 @@ li {
 code {
     position: absolute;
     top: 0%;
-    right: 50%;
+    right: 24%;
+    
 }
 
 /*footer*/
@@ -305,7 +318,7 @@ footer {
     align-items: center;
 }
 
-span {
+.footer__span {
     display: inline-block;
     padding-top: 10px;
     padding-left: 7px ;
